@@ -9,6 +9,8 @@ class ClientDetailsController < ApplicationController
     @client_details.id = params[:id]
     if @client_details.valid?
       logger.warn "TODO: #{@client_details}"
+      ClientDetailsUpdater.new(@client_details).call
+      redirect_to edit_client_detail_path(@client_details.id), notice: "Client details updated."
     else
       render :edit
     end
