@@ -1,24 +1,4 @@
-# README
+# PNAI, Lectuire 5 examples
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Example of using `FormObject` and `ServiceObject` patterns used on
+lecture 5 on PNAI course.
